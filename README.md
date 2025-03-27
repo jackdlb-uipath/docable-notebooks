@@ -226,7 +226,7 @@ _Installation help for running from source:_
 * Create file with given content: `{type: 'file'}`.
     * File modifiers:
         - `path`: **Required**. The path to place contents.
-        - `permission`: Set permissions of file, use any format given by supported by chmod (`'u+x'`, `'700'`).
+        - `permission`: Set permissions of file, use any format supported by chmod (`'u+x'`, `'700'`).
         - `user`: Owner of file.
         - `mode`: If `'append'`, will add content to file instead of overwriting.
 
